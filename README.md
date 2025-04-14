@@ -106,16 +106,8 @@ This makes the model actionable in a real-world fraud ops environment.
 ## Author
 
 **Chih-Chi (Jocelyn) Kang**  
-Data-driven analyst passionate about risk, fraud, and AI for good.
+Data-driven analyst passionate about innovative and interesting stuff for good.
 
 [LinkedIn](https://www.linkedin.com/in/chih-chi-jocelyn-kang-ab9092145/)
 
----
 
-## License
-
-This project is for educational and demonstration purposes.
-
-
-
-This project is for educational and demonstration purposes.
