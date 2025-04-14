@@ -77,9 +77,9 @@ Instead of just accuracy, we simulate real-world usage:
 
 ## Business Value
 
-- ✅ **Efficiency**: Reviewing just 15% of wallets catches all known frauds (100% precision @ Top 300)
-- ✅ **Scalability**: Even up to Top 1000 (50% of data), fraud rate stays useful (43%)
-- ✅ **Prioritization**: Enables targeted review over random sampling
+- **Efficiency**: Reviewing just 15% of wallets catches all known frauds (100% precision @ Top 300)
+- **Scalability**: Even up to Top 1000 (50% of data), fraud rate stays useful (43%)
+- **Prioritization**: Enables targeted review over random sampling
 
 This makes the model actionable in a real-world fraud ops environment.
 
