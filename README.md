@@ -1,11 +1,10 @@
-# Ethereum-Fraud-Detection
-# 🔍 Ethereum Wallet Fraud Detection with XGBoost
+# Ethereum Wallet Fraud Detection with XGBoost
 
 This project applies machine learning to detect fraudulent Ethereum wallets based on their transaction behavior. It uses real-world, imbalanced data to help prioritize suspicious wallets for fraud investigation teams.
 
 ---
 
-## 🌟 Project Highlights
+## Project Highlights
 
 - Built a classification model on Ethereum wallet-level features
 - Tackled **imbalanced data** with weighted models and appropriate evaluation metrics
@@ -14,7 +13,7 @@ This project applies machine learning to detect fraudulent Ethereum wallets base
 
 ---
 
-## 🔎 Problem Statement
+## Problem Statement
 
 Fraudulent activity on the blockchain is hard to detect due to large volume and subtle behavioral patterns. Our goal is:
 
@@ -30,7 +29,7 @@ The target label `FLAG` = 1 denotes fraudulent wallets.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Source: Kaggle [Ethereum Fraud Detection Dataset](https://www.kaggle.com/datasets/vagifa/ethereum-fraud-detection)
 - Rows: ~13,000 wallets
@@ -38,7 +37,7 @@ The target label `FLAG` = 1 denotes fraudulent wallets.
 
 ---
 
-## 🚀 Tools & Technologies
+## Tools & Technologies
 
 - **Language:** Python 3
 - **Libraries:** Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
@@ -46,7 +45,7 @@ The target label `FLAG` = 1 denotes fraudulent wallets.
 
 ---
 
-## 📈 Model Comparison
+## Model Comparison
 
 Three models were trained using **5-fold cross-validation**, evaluated based on **F1-score** to balance precision and recall:
 
@@ -58,7 +57,7 @@ Three models were trained using **5-fold cross-validation**, evaluated based on 
 
 XGBoost was chosen as the final model due to its superior performance under imbalance.
 
-### 🌐 Evaluation Metric: Precision@TopK
+### Evaluation Metric: Precision@TopK
 
 Instead of just accuracy, we simulate real-world usage:
 
@@ -70,13 +69,13 @@ Instead of just accuracy, we simulate real-world usage:
 | Top 500       | 84%                     |
 | Top 1000      | 43.6%                   |
 
-### 📉 Visualization
+### Visualization
 
 ![Precision@TopK](imgs/precision_topk.png)
 
 ---
 
-## 📊 Business Value
+## Business Value
 
 - ✅ **Efficiency**: Reviewing just 15% of wallets catches all known frauds (100% precision @ Top 300)
 - ✅ **Scalability**: Even up to Top 1000 (50% of data), fraud rate stays useful (43%)
@@ -86,7 +85,7 @@ This makes the model actionable in a real-world fraud ops environment.
 
 ---
 
-## 🤝 Future Improvements
+## Future Improvements
 
 - Add temporal features (time between fraud activity bursts)
 - Graph-based wallet relationships (e.g. network centrality)
@@ -94,7 +93,7 @@ This makes the model actionable in a real-world fraud ops environment.
 
 ---
 
-## 📜 Files
+## Files
 
 | File | Description |
 |------|-------------|
@@ -104,7 +103,7 @@ This makes the model actionable in a real-world fraud ops environment.
 
 ---
 
-## 🚀 Author
+## Author
 
 **Chih-Chi (Jocelyn) Kang**  
 Data-driven analyst passionate about risk, fraud, and AI for good.
@@ -113,7 +112,7 @@ Data-driven analyst passionate about risk, fraud, and AI for good.
 
 ---
 
-## 🌎 License
+## License
 
 This project is for educational and demonstration purposes.
 
