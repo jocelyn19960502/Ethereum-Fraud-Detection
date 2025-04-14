@@ -1,7 +1,7 @@
 # Ethereum-Fraud-Detection
 This project applies machine learning to detect fraudulent Ethereum wallets based on their transaction behavior. It uses real-world, imbalanced data to help prioritize suspicious wallets for fraud investigation teams.
 
-🌟 Project Highlights
+Project Highlights
 
 Built a classification model on Ethereum wallet-level features
 
@@ -11,7 +11,7 @@ Compared multiple algorithms: Logistic Regression, Random Forest, XGBoost
 
 Used Precision@TopK to simulate real-world business impact
 
-🔎 Problem Statement
+Problem Statement
 
 Fraudulent activity on the blockchain is hard to detect due to large volume and subtle behavioral patterns. Our goal is:
 
@@ -29,7 +29,7 @@ Token diversity and contract creation behavior
 
 The target label FLAG = 1 denotes fraudulent wallets.
 
-📊 Dataset
+Dataset
 
 Source: Kaggle Ethereum Fraud Detection Dataset
 
@@ -37,7 +37,7 @@ Rows: ~13,000 wallets
 
 Imbalanced label distribution (fraud ≈ 13%)
 
-🚀 Tools & Technologies
+Tools & Technologies
 
 Language: Python 3
 
@@ -45,7 +45,7 @@ Libraries: Pandas, Scikit-learn, XGBoost, Matplotlib, Seaborn
 
 Notebook: Jupyter
 
-📈 Model Comparison
+Model Comparison
 
 Three models were trained using 5-fold cross-validation, evaluated based on F1-score to balance precision and recall:
 
@@ -67,7 +67,7 @@ XGBoost
 
 XGBoost was chosen as the final model due to its superior performance under imbalance.
 
-🌐 Evaluation Metric: Precision@TopK
+Evaluation Metric: Precision@TopK
 
 Instead of just accuracy, we simulate real-world usage:
 
@@ -89,21 +89,21 @@ Top 1000
 
 43.6%
 
-📉 Visualization
+Visualization
 
 
 
-📊 Business Value
+Business Value
 
-✅ Efficiency: Reviewing just 15% of wallets catches all known frauds (100% precision @ Top 300)
+Efficiency: Reviewing just 15% of wallets catches all known frauds (100% precision @ Top 300)
 
-✅ Scalability: Even up to Top 1000 (50% of data), fraud rate stays useful (43%)
+Scalability: Even up to Top 1000 (50% of data), fraud rate stays useful (43%)
 
-✅ Prioritization: Enables targeted review over random sampling
+Prioritization: Enables targeted review over random sampling
 
 This makes the model actionable in a real-world fraud ops environment.
 
-🤝 Future Improvements
+Future Improvements
 
 Add temporal features (time between fraud activity bursts)
 
@@ -111,7 +111,7 @@ Graph-based wallet relationships (e.g. network centrality)
 
 Use unsupervised anomaly detection for unseen fraud types
 
-📜 Files
+Files
 
 File
 
@@ -129,12 +129,12 @@ README.md
 
 Project overview and documentation
 
-🚀 Author
+Author
 
 Chih-Chi (Jocelyn) KangData-driven analyst passionate about risk, fraud, and AI for good.
 
 LinkedIn
 
-🌎 License
+License
 
 This project is for educational and demonstration purposes.
